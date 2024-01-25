@@ -1,0 +1,219 @@
+@import url("https://use.typekit.net/ujf3qxb.css");
+
+body{ 
+    background-color: #5484C1;
+}
+
+header h1{ 
+    text-align: center;
+    padding-right: 1em;
+}
+header{
+   
+    display: flex;
+    margin:0;
+}
+main{
+    padding-bottom: 3em;
+}
+
+header img{
+    height:2em;
+    position: static;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 270%;
+    font-family: "itc-american-typewriter", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2{
+    color: whitesmoke;
+    padding: 0;
+    margin: 0.3em;
+    font-size: 120%;
+    font-family: "itc-american-typewriter", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.kaartjes section{ 
+    background-color: #A6519A;
+    border: 0.2em solid black;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+.kaartjes p{ 
+    font-size: small;
+}
+
+article{
+    margin-bottom: 3em;
+}
+
+.kaartjes section p, .kaartjes section h2{
+    text-align: center;
+    display: flex;
+}
+
+.kaartjes a{
+    display: flex;
+    list-style: none;
+}
+
+.kaartjes article{
+    margin: 0;
+    margin-left: 0;
+    width: 6em;
+    margin-right: 1.5em;
+}
+
+.stats{
+    padding-top: 0.7em;
+}
+
+
+.kaartjes section img {
+    height: 6em;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.stats div{
+    display: flex;
+}
+
+.stats div img{
+    height: 2em;
+}
+.stats div h3{
+    color: whitesmoke;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right:0;
+    margin-top: 0.35em;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+p{
+    font-family: itc-american-typewriter-cond, serif;
+    font-weight: 500;
+    font-style: normal;
+    color: whitesmoke;
+}
+
+
+
+.titelbeginscherm h1, .titelbeginscherm p{
+    text-align: center;
+    margin: 0em;
+    padding: 0em;
+}
+
+.kaartjes .titelbeginscherm{
+    border: 0;
+    margin-bottom: 2em ;
+}
+
+.titelbeginscherm h1{
+    font-size: 250%;
+}
+
+.titelbeginscherm p{ 
+    font-size: 80%;
+}
+
+article figure img{
+    height: 8em;
+    float:left;
+}
+
+article:nth-of-type(odd) figure img{
+    float:right;
+}
+
+.kaart-foto img{
+    position: absolute;
+}
+
+.kaart-van-amsterdam{
+    z-index: -1;
+}
+
+.overlay-de-pijp{
+    height: 23%;
+    width: 27%;
+    margin-top: 17em;
+    margin-left: 9.25em;
+}
+
+.overlay-west{
+    height: 23%;
+    margin-top: 9em;
+}
+
+.overlay-centrum{
+    height: 22%;
+    margin-top: 9em;
+    margin-left: 6.5em;
+}
+
+.overlay-oost{
+    height: 23%;
+    margin-left: 13.7em;
+    margin-top: 16em;
+}
+
+
+.overlay-zuid{
+    height: 11.2%;
+    margin-top: 21em;
+}
+
+.overlay-oud-zuid{
+    height: 15%;
+    margin-top: 16.6em;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 0.15em solid black;
+    background-color: #92B7DA;
+}
+
+footer img{
+    height: 4em;
+    width: 4em;
+    padding: 0;
+}
+
+
+
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.3em;
+}
+
+footer nav ul li{
+    list-style: none;
+}
+
+
+
+
